@@ -1,0 +1,38 @@
+{
+    "namespace": "com.dataspartan.doc",
+    "type": "record",
+    "name": "ParagraphData",
+    "fields":[
+         {
+            "name": "docId",
+            "type": "string"
+         },
+         {
+            "name": "id",
+            "type": {
+                "type": "string",
+                "logicalType": "uuid"
+            }
+         },
+         {
+            "name": "paragraphPosition",
+            "type": "long"
+         },
+         {
+            "name": "paragraphPagePosition",
+            "type": "long"
+         },
+         {
+            "name": "pages",
+            "type": {
+                "type" : "array",
+                "items" : "long"
+            }
+         },
+         {
+            "name": "content",
+            "type": "string"
+         }
+    ]
+}
+

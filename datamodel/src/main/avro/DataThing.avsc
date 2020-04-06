@@ -1,0 +1,19 @@
+{
+    "namespace": "com.example.data",
+    "type": "record",
+    "name": "DataThing",
+    "fields":[
+         {
+            "name": "id",
+            "type": {
+                "type": "string",
+                "logicalType": "uuid"
+            }
+         },
+         {
+            "name": "index",
+            "type": "int"
+         }
+    ]
+}
+
